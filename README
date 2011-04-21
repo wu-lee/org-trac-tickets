@@ -1,0 +1,7 @@
+So far this is merely a cobbled-together means of turning org-mode
+entries into Trac tickets.
+
+Having loaded the library, position the point over an org-mode entry,
+and execute org-trac-create-ticket-from-entry, and you should after a
+pause find that your entry has a ticket ID inserted, and the Trac
+project has a ticket inserted with the same ID.
